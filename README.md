@@ -20,6 +20,7 @@ This is a simple Angular application for checking the weather forecast of differ
 
 1. Clone the repository.
 2. Open the index.html in your web browser.
+3. For online demo. Visit https://ang-weather.netlify.app/
 
 ## Credits
 
