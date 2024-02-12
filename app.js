@@ -137,7 +137,7 @@ app.directive("weatherForecast", function () {
         <div class="w-1/3 text-justify">{{ day.date | getDayFromDate }}</div>
         <div class="w-1/3">
           <img
-            ng-src="http:{{day.day.condition.icon}}"
+            ng-src="https:{{day.day.condition.icon}}"
             alt="weather-icon"
             width="30"
             class="mx-auto"
