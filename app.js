@@ -34,7 +34,6 @@ app.service("weatherService", function (API_KEY, BASE_URL, $http) {
   };
   this.addToWeatherList = function (weather) {
     weatherList.unshift(weather);
-    console.log(weatherList);
   };
   this.searchPlaces = async function (search) {
     const response = await $http.get(`${BASE_URL}/search.json`, {
